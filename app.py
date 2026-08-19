@@ -2,8 +2,7 @@ import streamlit as st
 import numpy as np
 import pickle
 
-# Load trained model
-model = pickle.load(open("insurance_model.pkl", "rb"))
+model = pickle.load(open("insurance_model_NEW.pkl", "rb"))
 
 st.title("💊 Medical Insurance Cost Estimator")
 
